@@ -6,14 +6,14 @@ interface ActiveLinkProps extends LinkProps {
     children: ReactElement;
 }
 
-export function ActiveLink({ 
-    children, 
-     ...rest 
-    }: ActiveLinkProps) {
+export function ActiveLink({
+    children,
+    ...rest
+}: ActiveLinkProps) {
     const { asPath } = useRouter()
     let isActive = false;
 
-    if(asPath=== rest.href || asPath === rest.as) {
+    if (asPath === rest.href || asPath === rest.as) {
         isActive = true;
     }
 

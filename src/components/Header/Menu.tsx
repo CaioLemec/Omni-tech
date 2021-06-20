@@ -6,65 +6,65 @@ export function Menu() {
     if (isLargerThan768) {
         return (
             <Flex justifyContent="center">
-                    <HStack 
+                <HStack
                     spacing={["8", "12", "16"]}
                     mx={["6", "8"]}
                     pr={["6", "8"]}
                     py="1"
                     color="yellow.main"
-                    >
-                        <ActiveLink href="/">
-                            <Button 
-                                type="submit" 
-                                colorScheme="pink"
-                                size="sm"
-                                fontSize="16"
-                                bg="transparent"
-                                color="yellow.main"
-                                _hover={{ color:"pink.main"  }}
-                                _active={{
+                >
+                    <ActiveLink href="/">
+                        <Button
+                            type="submit"
+                            colorScheme="pink"
+                            size="sm"
+                            fontSize="16"
+                            bg="transparent"
+                            color="yellow.main"
+                            _hover={{ color: "pink.main" }}
+                            _active={{
                                 transform: "scale(0.90)",
-                                }}
-                                _focus={{
+                            }}
+                            _focus={{
                                 border: "none",
-                                }}
-                            >Home</Button>
-                        </ActiveLink>
-                        <ActiveLink href="/clients">
-                        <Button 
-                                type="submit" 
-                                colorScheme="pink"
-                                size="sm"
-                                fontSize="16"
-                                bg="transparent"
-                                color="yellow.main"
-                                _hover={{ color:"pink.main"  }}
-                                _active={{
+                            }}
+                        >Home</Button>
+                    </ActiveLink>
+                    <ActiveLink href="/clients">
+                        <Button
+                            type="submit"
+                            colorScheme="pink"
+                            size="sm"
+                            fontSize="16"
+                            bg="transparent"
+                            color="yellow.main"
+                            _hover={{ color: "pink.main" }}
+                            _active={{
                                 transform: "scale(0.90)",
-                                }}
-                                _focus={{
+                            }}
+                            _focus={{
                                 border: "none",
-                                }}
-                            >Clients</Button>
-                        </ActiveLink>
-                        <ActiveLink href="/contact">
-                        <Button 
-                                type="submit" 
-                                colorScheme="pink"
-                                size="sm"
-                                fontSize="16"
-                                bg="transparent"
-                                color="yellow.main"
-                                _hover={{ color:"pink.main" }}
-                                _active={{
+                            }}
+                        >Clients</Button>
+                    </ActiveLink>
+                    <ActiveLink href="/contact">
+                        <Button
+                            type="submit"
+                            colorScheme="pink"
+                            size="sm"
+                            fontSize="16"
+                            bg="transparent"
+                            color="yellow.main"
+                            _hover={{ color: "pink.main" }}
+                            _active={{
                                 transform: "scale(0.90)",
-                                }}
-                                _focus={{
+                            }}
+                            _focus={{
                                 border: "none",
-                                }}
-                            >Contact</Button>
-                        </ActiveLink>
-                    </HStack>
+                            }}
+                        >Contact</Button>
+                    </ActiveLink>
+                </HStack>
             </Flex>
         );
     } else {

@@ -27,11 +27,11 @@ export function Header() {
             <Menu />
             {!isMobileVersion && (
                 <>
-                <SignUpButton size=""/>
-                <LogInButton />
+                    <SignUpButton size="" />
+                    <LogInButton />
                 </>
             )}
-            <MobileMenu showMobileMenu={isMobileVersion}/>
-            </Flex>
-        );
+            <MobileMenu showMobileMenu={isMobileVersion} />
+        </Flex>
+    );
 }
