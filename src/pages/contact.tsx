@@ -25,7 +25,7 @@ export default function Contact() {
       </Box>
       <Header />
       <Flex w="100%" h="90vh" align="center" justify="center">
-        <Flex w="60%" h="60%" boxShadow="2xl" borderRadius={30} bg="rgba(255, 255, 255, 0.1)" >
+        <Flex w="90%" h="90%" boxShadow="2xl" borderRadius={30} bg="rgba(255, 255, 255, 0.1)" >
           {!isMobileVersion && (
             <Flex w="100%" h="100%" p="6">
               <Image ml="12" src="images/contact.svg" alt="computer" />
