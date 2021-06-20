@@ -130,28 +130,3 @@ export function SignUpButton(props) {
     </>
   )
 }
-
-
-
-
-
-//     <Button
-//     type="submit" 
-//     onClick={onOpen}
-//     colorScheme="pink"
-//     size="lg"
-//     fontSize="16"
-//     mr="5"
-//     ml={["4", "2"]}
-//     bg="pink.main"
-//     color="yellow.main"
-//     _hover={{ opacity: "0.8" }}
-//     _active={{
-//     transform: "scale(0.90)",
-//     }}
-//     _focus={{
-//     border: "none",
-//     }}
-//     >
-//     Sign Up
-// </Button>

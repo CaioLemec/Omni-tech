@@ -1,4 +1,4 @@
-import { Flex, FormControl, FormLabel, Input, VStack, Textarea } from "@chakra-ui/react"
+import { Flex, FormControl, FormLabel, Input, VStack, Textarea, Button } from "@chakra-ui/react"
 import React from "react";
 
 export function ContactInput() {
@@ -42,6 +42,24 @@ export function ContactInput() {
                         _hover={{ transform: "scale(0.95)", }}
                     />
                 </FormControl>
+                <Button
+                    size="lg"
+                    w="100%"
+                    fontSize="16"
+                    mr="5"
+                    ml={["4", "2"]}
+                    bg="pink.main"
+                    color="yellow.main"
+                    _hover={{ opacity: "0.8" }}
+                    _active={{
+                    transform: "scale(0.90)",
+                    }}
+                    _focus={{
+                    border: "none",
+                    }}
+                >
+                    Contact us
+                </Button>
             </VStack>
         </Flex>
     );
