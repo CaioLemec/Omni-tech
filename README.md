@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
- <img alt="mockup" src="./public/images/mockup1.png" width="65%">
+ <img alt="mockup" src="./public/images/mockup.png" width="65%">
 </p>
 
 <br>
