@@ -30,6 +30,7 @@ interface MobileMenuProps {
                        bg: "pink.main",
                        border: "none",
                        }}
+                       zIndex="1"
                    />
                    <MenuList 
                    minWidth={320}
@@ -37,6 +38,7 @@ interface MobileMenuProps {
                    border="none"
                    color="gray.main"
                    fontWeight="bold"
+                   zIndex="2"
                    >
                        <VStack>
                        <Link href="/">
@@ -53,23 +55,6 @@ interface MobileMenuProps {
                        >
                        <Icon as={RiHome2Fill} mr="2" fontSize="20" color="gray.main"/>
                        <Text fontWeight="bold" color="gray.main" textAlign="right" fontSize="16">Home</Text>
-                       </MenuItem>
-                       </Link>
-           
-                       <Link href="/about">
-                       <MenuItem
-                       w="100%"
-                       _active={{
-                           transform: "scale(0.90)",
-                           bg: "blue.main",
-                       }}
-                       _focus={{
-                           bg: "blue.main",
-                           border: "none",
-                       }}
-                       >
-                       <Icon as={RiZoomInFill} mr="2" fontSize="20" color="gray.main"/>
-                       <Text fontWeight="bold" color="gray.main" textAlign="right" fontSize="16">About</Text>
                        </MenuItem>
                        </Link>
            
@@ -90,7 +75,7 @@ interface MobileMenuProps {
                        </MenuItem>
                        </Link>
            
-                       <Link href="/about">
+                       <Link href="/contact">
                        <MenuItem
                        w="100%"
                        _active={{

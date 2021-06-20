@@ -19,7 +19,6 @@ export function Header() {
             maxWidth={1480}
             minH="20"
             mx="auto"
-            mt="4"
             px="6"
             align="center"
         >
@@ -28,7 +27,7 @@ export function Header() {
             <Menu />
             {!isMobileVersion && (
                 <>
-                <SignUpButton />
+                <SignUpButton size=""/>
                 <LogInButton />
                 </>
             )}

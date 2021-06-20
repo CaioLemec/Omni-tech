@@ -1,4 +1,4 @@
-import { Image, Spacer, Link } from "@chakra-ui/react"
+import { Image, Link } from "@chakra-ui/react"
 
 export function Logo() {
     return (

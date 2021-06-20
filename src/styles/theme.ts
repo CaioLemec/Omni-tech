@@ -1,4 +1,4 @@
-import { extendTheme } from '@chakra-ui/react';
+import { Box, extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme ({
     colors: {

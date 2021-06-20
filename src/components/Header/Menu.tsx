@@ -13,7 +13,7 @@ export function Menu() {
                     py="1"
                     color="yellow.main"
                     >
-                        <ActiveLink href="/about">
+                        <ActiveLink href="/">
                             <Button 
                                 type="submit" 
                                 colorScheme="pink"
@@ -28,7 +28,7 @@ export function Menu() {
                                 _focus={{
                                 border: "none",
                                 }}
-                            >About</Button>
+                            >Home</Button>
                         </ActiveLink>
                         <ActiveLink href="/clients">
                         <Button 

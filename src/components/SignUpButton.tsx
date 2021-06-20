@@ -1,7 +1,7 @@
 import { useDisclosure, Button, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react'
 import React from 'react'
 
-export function SignUpButton() {
+export function SignUpButton(props) {
     const { isOpen, onOpen, onClose } = useDisclosure()
 
     const initialRef = React.useRef()
@@ -10,10 +10,9 @@ export function SignUpButton() {
     return (
       <>
         <Button
-            type="submit" 
             onClick={onOpen}
-            colorScheme="pink"
             size="lg"
+            w={`${props.size}`}
             fontSize="16"
             mr="5"
             ml={["4", "2"]}
